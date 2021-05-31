@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Nora Mamo, 000801954
+    
+    February, 20, 2021
+    
+    The main page of OpenHouse 
+    
+    I, Nora Mamo, student number 000801954, certify that this material is my original work. 
+    No other person's work has been used without due acknowledgment and I have not made my work available to anyone else.
+    -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JavaScript -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Lab 3: Responsive Design</title>
+  </head><!--end header-->
+
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar nav navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="images/openhouse-logo.svg" width="140" height="auto" alt="OpenHouse logo"></a>
+      
+      <!--mobile screen menu icon-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <!--menu list for mobile and desktop screens-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="page.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="post.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav><!--end of navigation bar-->
+
+
+    <!--page header-->
+    <div class="row header p-5">
+      <!--header content-->
+      <div class="col-xs-3 col-md-5 container  mt-sm-5 ml-sm-5">
+        <h3 class="display-4 text-white">The best place to find a home</h3><br>
+        <a href="#" class="btn btn-primary btn-lg">Get started</a>
+      </div>
+    </div>
+
+    <!--page content-->
+    <div class="row content m-auto mt-sm-5">
+      <!--column 1-->
+      <div class = "col-sm-10 mt-5 col-md-6 pl-5 ml-5">
+        <!--title row for mobile screen-->
+        <div class = "row">
+          <h1 class="d-block d-md-none display-4 text-center pr-5">For over such and such years, we’ve been the one that had the results you can count on.</h1>
+        </div>
+        <!--image row-->
+        <div class = "row pl-5 ml-5">
+          <img class = "row pl-5 ml-5 photo rounded" alt="Super cool photo" src="images/intro-image.jpg" width="100%" height="auto">
+        </div>
+      </div><!--end of column 1-->
+
+      <!--column 2-->
+      <div class = "col-sm-12 col-md ml-5">
+        <!--title row for desktop screen-->
+        <div class = "row">
+          <h1 class="d-none d-md-block display-4 text-center">For over such and such years, we’ve been the one that had the results you can count on.</h1>
+        </div>
+        <!--paragraph row-->
+        <div class = "row">
+          <p class = "paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet dui ac ex pulvinar fermentum eu auctor ex. 
+              Vestibulum at euismod dui. Etiam quis nisi quis est sagittis sollicitudin id in ipsum. Nulla euismod quis ex in egestas. Sed pulvinar cursus metus, 
+              in ultricies eros venenatis in. Vestibulum ut quam pulvinar sapien ornare pellentesque. Sed sed sagittis nunc, eget efficitur turpis. 
+              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce euismod vitae tortor quis facilisis. Aenean vel fringilla massa. 
+              Cras faucibus lectus id semper scelerisque.<br><br>
+              Integer quis elementum libero, sed egestas dui. Phasellus quis mauris dignissim, rhoncus nulla eu, malesuada dui. Praesent eu nulla fermentum, imperdiet turpis sit amet, 
+              aliquet enim. Mauris gravida justo quis sem tincidunt, id auctor libero lacinia.
+          </p>
+        </div>
+      </div><!--end of column 2-->
+    </div><!--end of page content-->
+  
+    <!--features container-->
+    <div class="row features pt-5">
+      <!--embeded video-->
+      <div class="row embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="video/introduction.mp4" allowfullscreen></iframe>
+      </div>
+
+      <!--features title-->
+      <div class = "col-12 pt-5 features-title">
+        <h1 class="text-center text-muted">Features that keep you coming back</h1>
+      </div>
+
+      <!--features content-->
+      <div class = "row m-auto  features-content">
+        <!--column 1-->
+        <div class="col-sm pr-5 mr-5 col-md p-4 feature">
+          <!--feature image-->
+          <div class="row-sm pl-5 ml-5 row p-4 border border-1 border-dark rounded feature-image">
+              <img src="images/feature-1.png" alt="Feature 1">
+          </div>
+          <!--feature description-->
+          <div class="row display-5 text-muted p-3 pl-5 feature-copy">
+              Objectively, the best map application for finding your perfect home
+          </div>
+        </div><!--end of column 1-->
+
+        <!--column 2-->
+        <div class="col-sm pr-5 mr-5 col-md p-4 feature">
+          <!--feature image-->
+          <div class="row-sm pl-5 ml-5 row p-4 border border-1 border-dark rounded feature-image">
+              <img src="images/feature-2.png" alt="Feature 2">
+          </div>
+          <!--feature description-->
+          <div class="display-5 text-muted pt-3 feature-copy">
+            Works on mobile
+          </div>
+        </div><!--end of column 2-->
+
+        <!--column 3-->
+        <div class="col-sm pr-5 mr-5 col-md p-4 feature">
+          <!--feature image-->
+          <div class="row-sm pl-5 ml-5 row p-4 border border-1 border-dark rounded feature-image">
+              <img src="images/feature-3.png" alt="Feature 3">
+          </div>
+          <!--feature description-->
+          <div class="display-5 text-muted  pt-3  feature-copy">
+            Fast like Sonic
+          </div>
+        </div><!--end of column 3-->
+
+      </div><!--end of feature content-->
+    </div><!--end of feature container-->
+
+    <!--form container-->
+    <div class ="container-fluid row pt-5 m-auto">
+      
+      <div class="col-12 signup-form">
+        <!--form description-->
+        <h1 class = "text-center">Now that we’ve clearly convinced you about what we’re doing here, please sign up.</h1>
+        <p class = "text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet dui ac ex pulvinar fermentum eu auctor ex. Vestibulum at euismod dui. Etiam quis nisi quis est sagittis sollicitudin id in ipsum. Nulla euismod quis ex in egestas. Sed pulvinar cursus metus, in ultricies eros venenatis in. Vestibulum ut quam pulvinar sapien ornare pellentesque. Sed sed sagittis nunc, eget efficitur turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce euismod vitae tortor quis facilisis. Aenean vel fringilla massa. Cras faucibus lectus id semper scelerisque.</p>
+        <p class = "text-muted">Integer quis elementum libero, sed egestas dui. Phasellus quis mauris dignissim, rhoncus nulla eu, malesuada dui. Praesent eu nulla fermentum, imperdiet turpis sit amet, aliquet enim. Mauris gravida justo quis sem tincidunt, id auctor libero lacinia. </p>
+
+        <!--form column-->
+        <form class = "col">
+        
+          <div class = "row">
+            <!--name row-->
+            <div class="col-sm-6 pt-4 col-md p-2 form-item">
+                <label>Name</label><br>
+                <input class="form-control" type="text" name="user-name" id="user-name" placeholder="e.g. Jesse">
+            </div>
+            <!--email row-->
+            <div class="col-sm-6 pt-4 col-md p-2 form-item">
+                <label>Email Address</label><br>
+                <input class="form-control" type="email" name="user-email" id="user-email" placeholder="e.g. jesse@company.com">
+            </div>
+          </div>
+
+          <div class = "row">
+            <!--username row-->
+            <div class="col-sm-6 pt-4 col-md  p-2 form-item">
+                <label>Username</label><br>
+                <input class="form-control" type="text" name="user-username" id="user-username" placeholder="e.g. jesse">
+            </div>
+            <!--password row-->
+            <div class="col-sm-6 pt-4 col-md  p-2 form-item">
+                <label>Password</label><br>
+                <input class="form-control" type="password" name="user-password" id="user-password">
+            </div>
+          </div>
+
+          <div class = "row">
+            <!--submit button-->
+            <div class="col-sm-6 pt-4 col-md  p-2 form-item">
+                <button type="button" class="btn btn-primary btn-block">Signup</button>
+            </div>
+            <!--checkbox-->
+            <div class="col-sm-6 pt-4 col-md  p-2 form-item form-checkbox">
+                <input type="checkbox" name="user-accept" id="user-accept" checked> I agree that I want you to bother me with this forever, even when it’s clearly no longer relevant (please check it anyway, yolo)
+            </div>
+          </div>
+
+        </form><!--end of form tag-->
+      </div><!--end of form-->
+    </div><!--end of form container-->
+  
+    <!--footer container-->
+    <footer class="footer mt-5">
+      <!--footer row-->
+      <div class = "row">
+        <!--footer column 1 - address-->
+        <div class="col-xs-1 pt-2 pl-3 col-lg-3 pt-5 pl-5 address">
+          <img src="images/openhouse-logo.svg" width="140" height="auto" alt="OpenHouse logo">
+          <div class = "pt-3">
+              123 Main Street,<br>Hamilton, Ontario<br>L9A 2W6
+          </div>
+        </div><!--end of column 1-->
+
+        <!--footer column 2 - social media, page and post links-->
+        <div class="col-xs-1 pl-5 ml-3 col-lg-3 pt-5 navigation">
+          <nav>
+              <a class = "row pt-3 text-white" href="page.html">About</a>
+              <a class = "row pt-3 text-white" href="page.html">Team</a>
+              <a class = "row pt-3 text-white" href="post.html">Blog</a>
+          </nav>
+          <div class="pt-lg-3 pb-5 pt-5 social">
+              <a class = "pr-3" href="#"><img src="images/instagram.svg" width="24" height="auto" alt="Instagram icon"></a>
+              <a class = "pr-3" href="#"><img src="images/facebook.svg" width="24" height="auto" alt="Facebook icon"></a>
+              <a class = "pr-3" href="#"><img src="images/twitter.svg" width="24" height="auto" alt="Twitter icon"></a>
+          </div>
+        </div><!--end of column 2-->
+
+      </div><!--end of footer row-->
+    </footer><!--end of footer tag-->
+  </body><!--end of page body-->
+</html><!--end of html-->

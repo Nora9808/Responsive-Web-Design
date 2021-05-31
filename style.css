@@ -1,0 +1,146 @@
+/* 
+
+    Nora Mamo, 000801954
+    
+    February, 20, 2021
+    
+    I, Nora Mamo, student number 000801954, certify that this material is my original work. 
+    No other person's work has been used without due acknowledgment and I have not made my work available to anyone else.
+*/
+
+/* General */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+button {
+    background: #02A8F9;
+    border-radius: 4px;
+    border: none;
+    padding: 14px 26px;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Nav */
+.nav {
+    background-image: linear-gradient(179deg, #05D3FD 0%, #02A8F9 100%);
+    height: 72px; 
+    padding: 0 20px;
+}
+
+
+.navbar-expand-lg #navbarSupportedContent a{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+div#navbarSupportedContent.navbar-collapse.collapse.show a {
+    background-image: linear-gradient(179deg, #05D3FD 0%, #02A8F9 100%);
+}
+
+
+/* header*/
+.header{
+    background-image: url(images/hero-image.jpg);
+    background-size: cover;
+    height: 740px;
+}
+
+.page-header{
+    background-position-y: top;
+    height: 430px;
+}
+
+.page-header h1{
+    margin-top: 300px;
+    font-size: 60px;
+}
+
+/* container */
+.container {
+    width: 100%;
+    height: 300px;
+}
+
+.col-md-5.container{
+    margin-top: 10rem!important;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Content */
+.about-blog-photo img{
+    box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.3);
+}
+
+.col-sm-10 .photo{
+    position: absolute;
+    left: -200px; 
+}
+
+.content {
+    max-width: 1000px;
+    color: #5C5C5C;
+}
+
+.paragraph{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.col-sm-12 .paragraph{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 450px;
+    padding: 30px;
+    padding-right: 15px;
+}
+
+/* Features */
+.row.features.pt-5 {
+    margin-top: 1200px;
+}
+
+.row.features.mt-sm-5 {
+    margin-top: 65rem!important;
+}
+
+.features .feature .feature-image img {
+    max-width: 146px;
+    max-height: 146px;
+    margin-left: 60px;
+}
+
+.features .feature .feature-copy {
+   
+    text-align: center;
+
+}
+
+/* form */
+.container-fluid {
+    max-width:1170px;
+}
+
+/* footer */
+.footer {
+    clear:both;
+    padding-top:20px;
+    background: #4D4D4D;
+    color: #C2C2C2;
+} 
